@@ -1,0 +1,25 @@
+# .github/ISSUE_TEMPLATE/setting.yml
+name: "🧰 Setting"
+description: "개발 환경/도구 설정"
+labels: [ "Setting" ]
+body:
+  - type: textarea
+    attributes:
+      label: ⚙️ 설정 내용
+      description: 무엇을, 왜 설정하는지
+      placeholder: 예) CI 파이프라인 캐시 추가로 빌드 시간 단축
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 🗺️ 적용 범위
+      description: 모듈/레포/브랜치/팀 등
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: ✅ 수용 기준(AC)
+      description: 설정 확인 방법/산출물
+      placeholder: |
+        - [ ] CI 시간 30% 감소
+        - [ ] 로컬 부트 시간 5초 이내

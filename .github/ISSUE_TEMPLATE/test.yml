@@ -1,0 +1,26 @@
+# .github/ISSUE_TEMPLATE/test.yml
+name: "🧪 Test"
+description: "테스트 작성/개선"
+labels: [ "Test" ]
+body:
+  - type: textarea
+    attributes:
+      label: 🎯 목표
+      description: 커버리지/시나리오/성능 등 테스트 목적
+      placeholder: 서비스 레이어 단위 테스트 80% 달성
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 🧩 대상
+      description: 클래스/모듈/경로
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: ✅ 체크리스트
+      description: 성공 기준을 체크리스트로 작성
+      placeholder: |
+        - [ ] 경계값 케이스 추가
+        - [ ] 실패 케이스 포함
+        - [ ] 테스트 독립성 보장

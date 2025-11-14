@@ -1,0 +1,26 @@
+# .github/ISSUE_TEMPLATE/html-css.yml
+name: "🎨 Html&css"
+description: "마크업/스타일링 작업"
+labels: [ "Html&css" ]
+body:
+  - type: textarea
+    attributes:
+      label: 🎯 목적/요구사항
+      description: 디자인 스펙/토큰/컴포넌트 상태 등
+      placeholder: Figma 스펙 링크, 색/간격/타이포 토큰
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 🧩 범위
+      description: 대상 페이지/컴포넌트
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: ✅ 체크리스트
+      description: 반응형/다크모드/접근성 등 확인 항목
+      placeholder: |
+        - [ ] 모바일/태블릿/데스크톱 대응
+        - [ ] 시맨틱 마크업
+        - [ ] 포커스 스타일 제공

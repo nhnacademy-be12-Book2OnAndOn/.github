@@ -1,0 +1,20 @@
+# .github/ISSUE_TEMPLATE/question.yml
+name: "❓ Question"
+description: "질문/정보 요청"
+labels: [ "Question" ]
+body:
+  - type: textarea
+    attributes:
+      label: 🙋 질문 내용
+      description: 최대한 구체적으로 작성해 주세요.
+      placeholder: 재현 코드/에러 로그/스크린샷 포함 권장
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 🔎 시도해본 것
+      description: 시도했던 방법과 결과를 적어주세요.
+  - type: input
+    attributes:
+      label: 📚 참고 링크
+      description: 관련 문서/이슈/PR 링크가 있다면 첨부

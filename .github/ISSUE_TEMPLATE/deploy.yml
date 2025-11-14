@@ -1,0 +1,26 @@
+# .github/ISSUE_TEMPLATE/deploy.yml
+name: "🚀 Deploy"
+description: "배포/릴리즈 관련 작업"
+labels: [ "Deploy" ]
+body:
+  - type: textarea
+    attributes:
+      label: 📦 배포 대상
+      description: 서비스/모듈/버전/환경(DEV/STG/PRD)
+      placeholder: Book2OnAndOn v1.3.0 / STG
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: ✅ 체크리스트
+      description: 배포 전/후 확인 항목
+      placeholder: |
+        - [ ] 마이그레이션 스크립트 적용
+        - [ ] 헬스체크 통과
+        - [ ] 롤백 플랜 준비
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 🔙 롤백 계획
+      description: 실패 시 복구 절차

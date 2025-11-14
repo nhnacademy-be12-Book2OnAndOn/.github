@@ -1,0 +1,26 @@
+# .github/ISSUE_TEMPLATE/docs.yml
+name: "📝 Docs"
+description: "문서 작성 및 수정 (README, ADR, 위키 등)"
+labels: [ "Docs" ]
+body:
+  - type: textarea
+    attributes:
+      label: 🗂️ 문서 범위
+      description: 어떤 문서를 다루는지 작성해 주세요.
+      placeholder: README.md, API 명세, 설치 가이드 등
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: ✏️ 변경/추가 내용
+      description: 구체적으로 어떤 내용을 추가/수정하나요?
+      placeholder: 설치 단계 스크린샷 추가, 예제 코드 보완 등
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: ✅ 수용 기준(AC)
+      description: 리뷰 기준/완료 정의(DoD)를 체크리스트로 작성
+      placeholder: |
+        - [ ] 예제 실행 성공
+        - [ ] 오탈자/링크 깨짐 없음

@@ -1,0 +1,25 @@
+# .github/ISSUE_TEMPLATE/api.yml
+name: "🌐 API"
+description: "서버 API 통신/스펙 작업"
+labels: [ "API" ]
+body:
+  - type: textarea
+    attributes:
+      label: 📄 API 스펙
+      description: 메서드/엔드포인트/쿼리/바디/응답 스키마
+      placeholder: GET /api/v1/books?query=...
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 🔁 연동/에러 처리
+      description: 타임아웃/재시도/백오프/에러코드 맵핑
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: ✅ 수용 기준(AC)
+      description: 계약 테스트/모킹/문서화 기준
+      placeholder: |
+        - [ ] OpenAPI 문서 최신화
+        - [ ] Contract Test 통과

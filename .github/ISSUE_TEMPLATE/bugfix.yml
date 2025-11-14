@@ -1,0 +1,53 @@
+# .github/ISSUE_TEMPLATE/bugfix.yml
+name: "🐞 BugFix"
+description: "버그 제보 및 수정 요청"
+labels: [ "BugFix" ]
+body:
+  - type: textarea
+    attributes:
+      label: ❗ 현상(Actual)
+      description: 발생한 문제를 구체적으로 작성해 주세요.
+        코드 블록(```)으로 콘솔 로그나 에러 메시지를 첨부할 수 있습니다.
+      placeholder: |
+        예시:
+        ```
+        TypeError: Cannot read properties of undefined (reading 'map')
+        at BookList.js:42
+        ```
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: ✅ 기대 동작(Expected)
+      description: 정상적으로 작동해야 하는 결과를 작성해 주세요.
+      placeholder: 예) 책 목록이 정상적으로 로드되어야 함
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: 🔁 재현 절차(Reproduce)
+      description: 문제가 발생하는 과정을 단계별로 작성해 주세요.
+      placeholder: |
+        1. 메인 페이지 접속
+        2. 로그인 후 책 목록 클릭
+        3. 콘솔 확인 시 오류 발생
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: 🧩 관련 코드(Code snippet)
+      description: 문제가 발생한 코드 일부를 붙여넣거나 링크를 작성해 주세요.
+      placeholder: |
+        ```js
+        const bookList = books.map(book => book.title); // books가 undefined일 경우 오류 발생
+        ```
+    validations:
+      required: false
+
+  - type: textarea
+    attributes:
+      label: 📋 추가 정보(Optional)
+      description: 스크린샷, 로그, PR 링크 등 추가 정보를 기입해 주세요.
