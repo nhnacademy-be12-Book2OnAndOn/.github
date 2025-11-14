@@ -22,16 +22,58 @@
 <div align="center">
   <h3> NHN Academy 12기 - Team2 팀원</h3>
 
-  | <a href="https://github.com/GM315"><img src="https://github.com/GM315.png" width="100px"><br/>김강민</a> | <a href="https://github.com/porori1224"><img src="https://github.com/porori1224.png" width="100px"><br/>김민서</a> | <a href="https://github.com/chye38"><img src="https://github.com/chye38.png" width="100px"><br/>이규형</a> | <a href="https://github.com/OiJs"><img src="https://github.com/OiJs.png" width="100px"><br/>이준서</a> | <a href="https://github.com/onyune"><img src="https://github.com/onyune.png" width="100px"><br/>전유진</a> | <a href="https://github.com/EatsMyFault"><img src="https://github.com/EatsMyFault.png" width="100px"><br/>전종선</a> | <a href="https://github.com/chis050"><img src="https://github.com/chis050.png" width="100px"><br/>창미주</a> |
-| --- | --- | --- | --- | --- | --- | --- |
-|1|2|3|4|5|6|7|
-|api|회원, 등급|주문, 결제|JWT, OAuth 2.0|도서 관련 테이블|주소|페이코|
-|쿠폰, 포인트|JWT|저자|Toss Payments|휴면 해제|Redis|Naver|
-|ELK|RabbitMQ|포장지|||리뷰||
-|AOP|||||||
+| <a href="https://github.com/GM315"><img src="https://github.com/GM315.png" width="100px"><br/>김강민</a> | <a href="https://github.com/porori1224"><img src="https://github.com/porori1224.png" width="100px"><br/>김민서</a> | <a href="https://github.com/chye38"><img src="https://github.com/chye38.png" width="100px"><br/>이규형</a> | <a href="https://github.com/OiJs"><img src="https://github.com/OiJs.png" width="100px"><br/>이준서</a> | <a href="https://github.com/onyune"><img src="https://github.com/onyune.png" width="100px"><br/>전유진</a> | <a href="https://github.com/EatsMyFault"><img src="https://github.com/EatsMyFault.png" width="100px"><br/>전종선</a> | <a href="https://github.com/chis050"><img src="https://github.com/chis050.png" width="100px"><br/>창미주</a> |
+|-------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|
+| 1                                                                                                     | 2                                                                                                               | 3                                                                                                       | 4                                                                                                   | 5                                                                                                       | 6                                                                                                                 | 7                                                                                                         |
+| api                                                                                                   | 회원, 등급                                                                                                          | 주문, 결제                                                                                                  | JWT, OAuth 2.0                                                                                      | 도서 관련 테이블                                                                                               | 주소                                                                                                                | 페이코                                                                                                       |
+| 쿠폰, 포인트                                                                                               | JWT                                                                                                             | 저자                                                                                                      | Toss Payments                                                                                       | 휴면 해제                                                                                                   | Redis                                                                                                             | Naver                                                                                                     |
+| ELK                                                                                                   | RabbitMQ                                                                                                        | 포장지                                                                                                     |                                                                                                     |                                                                                                         | 리뷰                                                                                                                |                                                                                                           |
+| AOP                                                                                                   |                                                                                                                 |                                                                                                         |                                                                                                     |                                                                                                         |                                                                                                                   |                                                                                                           |
+
 </div>
 
 <br/>
+
+---
+
+## 🧰 Tech Stack
+
+**Backend**  
+<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=OpenJDK&logoColor=white">
+<img src="https://img.shields.io/badge/springboot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white">
+<img src="https://img.shields.io/badge/Spring%20Cloud-Gateway%20%7C%20Eureka%20%7C%20OpenFeign-6DB33F?style=for-the-badge&logo=spring&logoColor=white">
+<img src="https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white">
+<img src="https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens">
+
+**Database & Cache**  
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=MySQL&logoColor=white">
+<img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white">
+
+**Search & Message**  
+<img src="https://img.shields.io/badge/Elasticsearch-005571?style=for-the-badge&logo=elasticsearch&logoColor=white">
+<img src="https://img.shields.io/badge/Kibana-005571?style=for-the-badge&logo=kibana&logoColor=white">
+<img src="https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white">
+
+**Testing & Quality**  
+<img src="https://img.shields.io/badge/JUnit5-25A162?style=for-the-badge&logo=junit5&logoColor=white">
+<img src="https://img.shields.io/badge/AssertJ-2E8B57?style=for-the-badge">
+<img src="https://img.shields.io/badge/Mockito-2E8B57?style=for-the-badge">
+<img src="https://img.shields.io/badge/SonarQube-4E9BCD?style=for-the-badge&logo=sonarqube&logoColor=white">
+
+**DevOps / Infra**  
+<img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white">
+<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white">
+<img src="https://img.shields.io/badge/NHN%20Cloud-1E90FF?style=for-the-badge">
+
+**Frontend / UI**  
+<img src="https://img.shields.io/badge/Thymeleaf-005F0F?style=for-the-badge&logo=Thymeleaf&logoColor=white">
+<img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white">
+
+**Tools & Workflow**  
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white">
+<img src="https://img.shields.io/badge/ERDCloud-4E9BCD?style=for-the-badge">
+<img src="https://img.shields.io/badge/Git%20Flow-F05032?style=for-the-badge&logo=git&logoColor=white">
+
 
 ---
 
