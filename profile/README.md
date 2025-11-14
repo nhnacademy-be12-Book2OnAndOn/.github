@@ -80,10 +80,10 @@
 ## Repository
 
 - [BOOK](https://github.com/nhnacademy-be12-Book2OnAndOn/Book2OnAndOn-book-service)
-- [ORDER](https://github.com/nhnacademy-be12-Book2OnAndOn/Book2OnAndOn-order-payment-servicet)
-- [COUPON](https://github.com/nhnacademy-be4-Book2OnAndOn/Book2OnAndOn-coupon-service)
-- [USER](https://github.com/nhnacademy-be4-Book2OnAndOn/Book2OnAndOn-user-service)
-- [WIKI](https://github.com/nhnacademy-be4-Book2OnAndOn/Book2OnAndOn-wiki)
+- [ORDER](https://github.com/nhnacademy-be12-Book2OnAndOn/Book2OnAndOn-order-payment-service-test)
+- [COUPON](https://github.com/nhnacademy-be12-Book2OnAndOn/Book2OnAndOn-coupon-service)
+- [USER](https://github.com/nhnacademy-be12-Book2OnAndOn/Book2OnAndOn-user-service)
+- [WIKI](https://github.com/nhnacademy-be12-Book2OnAndOn/Book2OnAndOn-wiki)
 
 <br/>
 
